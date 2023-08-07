@@ -1,0 +1,11 @@
+ext.title = 'LSP4J WebSocket Play Framework'
+description = 'Play Framework WebSocket support for LSP4J'
+
+dependencies {
+    compile project(":org.eclipse.lsp4j.jsonrpc")
+    compile "com.typesafe.play:play_2.12:$versions.play"
+}
+
+jar.manifest {
+    instruction 'Import-Package', '*'
+}

@@ -10,7 +10,7 @@
  * SPDX-License-Identifier: EPL-2.0 OR BSD-3-Clause
  ******************************************************************************/
 
-version = '0.12.0'
+version = '0.1.0'
 
 ext.versions = [
 	'xtend_lib': '2.24.0',
@@ -20,5 +20,6 @@ ext.versions = [
 	'gson_orbit': '2.8.6.v20201231-1626',
 	'websocket_jakarta': '2.0.0',
 	'websocket': '1.0',
-	'junit': '4.12'
+	'junit': '4.12',
+	'play': '2.8.8'
 ]

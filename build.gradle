@@ -27,7 +27,7 @@ apply from: "${rootDir}/gradle/versions.gradle"
 subprojects {
 	repositories.mavenCentral()
 	
-	group = 'org.eclipse.lsp4j'
+	group = 'com.exalate'
 	version = rootProject.version
 	
 	apply plugin: 'java'
